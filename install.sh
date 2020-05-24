@@ -1,3 +1,5 @@
 #!/bin/bash
 
-bash git_config_global.sh 
+sudo bash workstation.sh
+
+bash git_config_global.sh
