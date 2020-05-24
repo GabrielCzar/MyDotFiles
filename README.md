@@ -1,4 +1,4 @@
-# MyDotFiles
+# My Dotfiles
 
 ## Installation 
 
