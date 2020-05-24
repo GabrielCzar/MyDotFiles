@@ -2,4 +2,4 @@
 
 ## Installation 
 
-`bash install.sh`
+`sh -c "$(wget -O- https://raw.githubusercontent.com/GabrielCzar/MyDotFiles/master/install.sh)"`
