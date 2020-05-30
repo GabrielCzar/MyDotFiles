@@ -11,7 +11,7 @@ sudo apt update &&
 
   ## Installing packages and softwares from Ubuntu deb repository ##
   sudo apt install git maven python3 python-pip nautilus-dropbox docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak yarn -y &&
-  sudo apt install ruby-full &&
+  sudo apt install ruby-full -y &&
   sudo apt-get install --no-install-recommends gnome-panel -y &&
 
   ## Installing Snap packages ##
@@ -41,9 +41,9 @@ sudo apt update &&
   newgrp docker &&
   wget https://nosqlbooster.com/s3/download/releasesv5/nosqlbooster4mongo-5.2.12.AppImage &&
   chmod a+x nosqlbooster4mongo-5.2.12.AppImage &&
-  sudo apt install htop &&
-  sudo apt-get install network-manager-openvpn-gnome &&
-  sudo apt install deepin-screenshot &&
+  sudo apt install htop -y &&
+  sudo apt-get install network-manager-openvpn-gnome -y &&
+  sudo apt install deepin-screenshot -y &&
   sudo apt install albert -y &&
 
   ## Atualização do sistema ##
