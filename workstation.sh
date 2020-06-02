@@ -42,6 +42,7 @@ sudo apt update &&
   wget https://nosqlbooster.com/s3/download/releasesv5/nosqlbooster4mongo-5.2.12.AppImage &&
   chmod a+x nosqlbooster4mongo-5.2.12.AppImage &&
   sudo apt install htop -y &&
+  sudo apt-get install openvpn -y &&
   sudo apt-get install network-manager-openvpn-gnome -y &&
   sudo apt install deepin-screenshot -y &&
   sudo apt install albert -y &&
