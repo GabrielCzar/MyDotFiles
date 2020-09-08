@@ -31,11 +31,11 @@ sudo apt update &&
   # Installing tools
   sudo apt install gnome-tweak-tool -y &&
   sudo apt install guake -y &&
-  sudo apt install curl &&
+  sudo apt install curl -y &&
   sudo apt install apache2 -y &&
   sudo chown -R $USER:$USER /var/www/html &&
-  sudo apt install zsh &&
-  chsh -s $(which zsh) &&
+  sudo apt install zsh -y &&
+  chsh -s $(which zsh) -y &&
   sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y &&
   sudo groupadd docker &&
   sudo usermod -aG docker $USER &&
