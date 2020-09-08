@@ -9,8 +9,9 @@ sudo rm /var/cache/apt/archives/lock
 
 sudo apt update &&
 
+  ## python-pip nautilus-dropbox not found in ubuntu-20
   ## Installing packages and softwares from Ubuntu deb repository ##
-  sudo apt install git maven python3 python-pip nautilus-dropbox docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak yarn -y &&
+  sudo apt install git maven python3 docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak yarn -y &&
   sudo apt install ruby-full -y &&
   sudo apt-get install --no-install-recommends gnome-panel -y &&
 
