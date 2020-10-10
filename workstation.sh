@@ -46,10 +46,6 @@ sudo apt update &&
   sudo apt-get install openvpn -y &&
   sudo apt-get install network-manager-openvpn-gnome -y &&
   sudo apt install deepin-screenshot -y &&
-  curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add - &&                                                            
-  echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list &&
-  sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_18.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc" &&
-  sudo apt install albert -y &&
 
   ## Atualização do sistema ##
   sudo apt update && sudo apt upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
