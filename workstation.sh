@@ -23,7 +23,7 @@ sudo apt update &&
 
   # Installing tools
   sudo apt install docker docker-compose &&
-  sudo groupadd docker &&
+  sudo groupadd -f docker &&
   sudo usermod -aG docker $USER &&
   newgrp docker &&
   sudo apt install gnome-tweak-tool -y &&
@@ -32,7 +32,7 @@ sudo apt update &&
   sudo apt install apache2 -y &&
   sudo chown -R $USER:$USER /var/www/html &&
   sudo apt install zsh -y &&
-  chsh -s $(which zsh) -y &&
+  chsh -s $(which zsh) &&
   sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y &&
   wget https://nosqlbooster.com/s3/download/releasesv5/nosqlbooster4mongo-5.2.12.AppImage &&
   chmod a+x nosqlbooster4mongo-5.2.12.AppImage &&
